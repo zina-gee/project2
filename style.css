@@ -1,0 +1,106 @@
+ 
+@media screen and (min-width:871px){
+   .container{
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    margin-top: 30px;
+    background:  hsl(233, 47%, 7%);
+   }
+   .card{
+    display: flex;
+     width: 80%;
+     height: 446px;
+     margin: auto;
+     transform: translateY(70px);
+     background: hsl(244, 38%, 16%);
+     border-radius: 10px;
+   }
+     header h1{
+      width: 90%;
+      font-size: 40px;
+      padding: 25px;
+      color: hsl(0, 0%, 100%);
+     }
+      header p{
+        font-size: 18px;
+        width: 80%;
+        padding-left: 25px;
+        color:  hsla(0, 0%, 100%, 0.6)
+        ;
+        }
+         section{
+          display: flex;
+          gap: 100px;
+          padding: 25px;
+          
+         }
+          section h2{
+            color: hsl(0, 0%, 100%);
+          }
+           section h3{
+            color:  hsla(0, 0%, 100%, 0.6)
+            ;
+           }
+            aside img{
+              border-radius: 10px;
+            }
+              .swap img{
+                display: none;
+                width: 100%;
+              }
+          }
+
+
+             /* ------small screen--- */
+             @media screen and (max-width:871px){
+                 aside img{
+                  display: none;
+                 }
+                     .container{
+                    background:  hsl(233, 47%, 7%);
+                    width: 100%;
+                  }
+                   .swap img{
+                    width: 100%;
+                    border-radius: 10px;
+                   }
+                
+                 .card{
+                  width: 90%;
+                  margin: auto;
+                  border-radius: 10px;
+                  background: hsl(244, 38%, 16%);
+                 }  
+                 header{
+                   text-align: center;
+                 }
+                   header h1{
+                    font-size: 30px;
+                    width: 80%;
+                    margin: auto;
+                    text-align: center;
+                    margin-top: 30px;
+                    color: hsl(0, 0%, 100%);
+                   }
+                    header p{
+                      text-align: center;
+                      width: 70%;
+                      margin: auto;
+                      margin-top: 30px;
+                      font-size: 16px;
+                      color:  hsla(0, 0%, 100%, 0.6)
+                      ;
+                    }
+                     section{
+                      margin-top: 30px;
+                     }
+                    section h2{
+                      color: hsl(0, 0%, 100%);
+                    }
+                     section h3{
+                      color:  hsla(0, 0%, 100%, 0.6)
+                      ;
+
+                     }
+             }
